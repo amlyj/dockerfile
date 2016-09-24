@@ -6,4 +6,4 @@ RUN curl -ssl https://raw.githubusercontent.com/king-aric/remote-scripts/master/
 
 EXPOSE 80
 
-CMD nginx
+CMD nginx -g "daemon off;"
